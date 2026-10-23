@@ -19,6 +19,14 @@ bool is_Prime(int a) {
     }
     return true;
 }
+int gcd(int a, int b) {
+    while(b) {
+        int r = a % b;
+        a = b;
+        b = r;
+    }
+    return a;
+}
 
 void print_closest_prime(int x) {
     int copie_x;
