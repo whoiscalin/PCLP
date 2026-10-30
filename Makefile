@@ -2,8 +2,8 @@ CC = gcc
 CFLAGS = -Wall -Wextra -std=c11
 LDLIBS = -lm
 
-SRC = 30-10-2026-2.c 
-OUT = 30-10-2026-2
+SRC = 30-10-2026-6.c 
+OUT = 30-10-2026-6
 
 .PHONY: all run clean
 
