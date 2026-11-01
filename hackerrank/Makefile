@@ -2,8 +2,8 @@ CC = gcc
 CFLAGS = -Wall -Wextra -std=c11
 LDLIBS = -lm
 
-SRC = 02-pc-loto.c 
-OUT = 02-pc-loto 
+SRC = c_perm.c 
+OUT = c_perm 
 
 
 .PHONY: all run clean

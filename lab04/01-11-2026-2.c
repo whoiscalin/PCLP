@@ -17,6 +17,10 @@ int longest_increasing_subarray(int v[MAX], int n) {
                 
             }
         }
+
+    }
+    if(current_length > maximum_length) {
+        maximum_length = current_length;
     }
     return maximum_length;
 }
