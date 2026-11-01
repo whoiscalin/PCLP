@@ -2,8 +2,8 @@ CC = gcc
 CFLAGS = -Wall -Wextra -std=c11
 LDLIBS = -lm
 
-SRC = gigelonacci.c 
-OUT = gigelonacci 
+SRC = 02-pc-loto.c 
+OUT = 02-pc-loto 
 
 
 .PHONY: all run clean
